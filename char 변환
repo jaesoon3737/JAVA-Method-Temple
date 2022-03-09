@@ -1,0 +1,7 @@
+        String ageString = Integer.toString(age); // 인트 -> 스트링
+        char[] chars = ageString.toCharArray(); // 스트링 - > 캐릭터배열
+        char aChar = chars[0];
+        int numericValue = Character.getNumericValue(aChar); // 캐릭터 -> 인트
+        String s = String.valueOf(aChar); // 캐릭터 - 스트링
+        String s1 = Character.toString(aChar); // 캐릭터 - 스트링
+        int i = Character.codePointAt(chars, 1); // 얜머지
